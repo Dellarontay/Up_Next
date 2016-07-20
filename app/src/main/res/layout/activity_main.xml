@@ -7,10 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="xyz.dellarontay.upnext.MainActivity">
+    tools:context="xyz.dellarontay.upnext.MainActivity"
+    android:id="@+id/it">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
 </RelativeLayout>
